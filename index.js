@@ -7,4 +7,4 @@ app.use(cors());
 
 app.use('/', require('express-pouchdb')(PouchDB));
 
-app.listen(3200);
+app.listen(80);

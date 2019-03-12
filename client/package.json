@@ -34,7 +34,6 @@
     "pouchdb": "^7.0.0"
   },
   "scripts": {
-    "pouch-server": "gulp :start-pouch-server-build & react-scripts build & node server",
     "cfgen": "gulp :gen-config",
     "cfgen-force": "gulp :gen-config-force-replace",
     "start": "react-scripts start",
